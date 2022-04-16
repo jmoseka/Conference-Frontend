@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Merriweather+Sans:wght@500;600;800&display=swap');
 
 :root {
-  --pink: #ec5252;
+  --pink: #ec5242;
   --light-gray: rgb(211, 211, 211);
   --dark: #272a31;
 }
@@ -62,7 +62,7 @@
 }
 
 .bar-icons a:hover {
-  color: #ec5252;
+  color: #ec5242;
   transform: scale(0.1);
 }
 
@@ -91,7 +91,7 @@
 }
 
 .nav-buy {
-  border: 3px solid #ec5252;
+  border: 3px solid #ec5242;
 }
 
 .menu-mobile {
@@ -202,7 +202,7 @@
 }
 
 .line {
-  border: 1px solid #ec5252;
+  border: 1px solid #ec5242;
   margin: 0 55px 0 55px;
 }
 
@@ -277,7 +277,7 @@
 }
 
 .feature-line {
-  border: 1px solid #ec5252;
+  border: 1px solid #ec5242;
   width: 70px;
 }
 
@@ -304,6 +304,9 @@
 
 .speaker-title {
   font-family: 'Merriweather Sans', sans-serif;
+}
+.speaker-subtitle{
+  color: var(--pink);
 }
 
 .btn-more {
@@ -336,7 +339,7 @@ footer {
 
 .partner-line {
   width: 50px;
-  border: 1px solid #ec5252;
+  border: 1px solid #ec5242;
 }
 
 .partner {
