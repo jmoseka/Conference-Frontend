@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300&family=Bowlby+One+SC&family=Cormorant+Garamond:wght@300&family=JetBrains+Mono:wght@100&family=Lato:wght@400;700&family=Xanh+Mono&display=swap');
+
+:root {
+  --pink: #ec5252;
+  --light-gray: rgb(211, 211, 211);
+  --dark: #272a31;
+}
+
+
+/* Styling for header */
+
+.bar-container {
+  background: var(--dark);
+  width: 100%;
+}
+
+.hidden {
+  display: none;
+}
+
+.header-bar {
+  width: 90%;
+  display: flex;
+  justify-content: end;
+  align-items: flex-end;
+}
+
+.header-bar a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: var(--dark);
+  padding: 0 25px 0 25px;
+  font-size: 17px;
+}
+
+.bar-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.bar-icons a {
+  padding: 0 13px 0 0;
+  text-align: center;
+}
+
+.bar-links a {
+  padding: 10px 20px 5px 20px;
+}
+
+.bar-icons a:hover {
+  color: #ec5252;
+  transform: scale(0.1);
+}
+
+.bar-links a:hover {
+  color: var(--pink);
+  font-weight: bold;
+  transform: scale(1);
+}
+
+.bar-links a:active {
+  color: var(--pink);
+}
+
+/* Navigation menu */
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.nav-logo {
+  width: 180px;
+  cursor: pointer;
+}
+
+.nav-links a:hover {
+  color: var(--pink);
+  transform: scale(1);
+  font-weight: bold;
+}
+
+.nav-links a:active {
+  color: var(--pink);
+}
+
+.nav-buy {
+  border: 3px solid #ec5252;
+}
+
+h4 {
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+/****  Styling for the home text box  ****/
+.section-home {
+  height: auto;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: linear-gradient(0deg, rgba(211, 211, 211, 0.91), rgb(211, 211, 211, 0.958)), url('images/bg-main-heading.jpg');
+}
+
+.home-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  font-family: lato, sans-serif;
+}
+
+.home-title {
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size: 2rem;
+  color: var(--pink);
+  font-weight: 600;
+}
+
+.home-p {
+  padding: 10px;
+  border: 1px solid white;
+  color: var(--dark);
+  font-family: lato, sans-serif;
+  font-weight: 400;
+  background-color: white;
+  line-height: 30px;
+}
+
+.text-bottom {
+  margin-top: 120px;
+  margin-bottom: 80px;
+  color: var(--dark);
+}
+
+/***********  SECTION INFO  *************/
+
+
+/***********  FOOTER- Partners  *********/
+footer {
+  background: var(--dark);
+  color: white;
+}
+
+.partner {
+  margin: 30px 0;
+  height: 220px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.partner h3 {
+  padding: 10px 20px 12px 20px;
+}
+
+.f-size {
+  font-size: 2rem;
+}
+
+.mozilla {
+  font-family: 'Xanh Mono', monospace;
+}
+
+.google {
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.naver {
+  font-family: 'Bowlby One SC', cursive;
+}
+
+.daumkako {
+  font-family: 'Akshar', sans-serif;
+}
+
+.airbnb {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+/* Copyright container */
+.creative-commons {
+  width: 100%;
+  background: white;
+  color: black;
+  padding: 2rem;
+}
+
+.col-label {
+  display: flex;
+  justify-content: center;
+}
+
+/***********  Section past summit  *****************/
+.section-past-summit {
+  border-top: 1px solid rgb(211, 211, 211);
+  margin: 60px 0;
+}
+
+
+/******  Summit images  *****/
+
+.summit-contain {
+  padding: 40px;
+}
+
+.summit-one {
+  height: 200px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  background-image: linear-gradient(0deg, rgba(236, 82, 82, 0.7), rgb(236, 82, 82, 0.7)), url('images/summit-1.jpg');
+}
+
+.summit-two {
+  height: 200px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  background-image: linear-gradient(0deg, rgba(236, 82, 82, 0.7), rgb(236, 82, 82, 0.7)), url('images/summit-2.jpg');
+}
+
+@media (max-width: 748px) {
+  header {
+    display: none;
+  }
+}
+
+@media (min-width: 748px) {
+  .open-nav-button {
+    display: none;
+  }
+
+  .summit-one,
+  .summit-two {
+    height: 300px;
+  }
+
+  .creative-commons {
+    display: none;
+  }
+}
