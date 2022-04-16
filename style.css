@@ -24,31 +24,11 @@
   align-items: flex-end;
 }
 
-.nav-links a {
-  text-decoration: none;
-  color: var(--dark);
-  padding: 0 25px 0 25px;
-  font-size: 17px;
-}
-
-.nav-links a:hover{
-  color: var(--pink);
-  transform: scale(1);
-  font-weight: bold;
-}
-
 .header-bar a {
   text-decoration: none;
   color: white;
 }
 
-.bar-flex {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-
-/* Stylint descending specificity  **/
 .menu-mobile-links a {
   text-align: center;
   display: block;
@@ -56,6 +36,13 @@
   color: white;
   padding: 20px;
   font-size: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: var(--dark);
+  padding: 0 25px 0 25px;
+  font-size: 17px;
 }
 
 .bar-icons a {
@@ -80,6 +67,18 @@
 
 .bar-links a:active {
   color: var(--pink);
+}
+
+.nav-links a:hover {
+  color: var(--pink);
+  transform: scale(1);
+  font-weight: bold;
+}
+
+.bar-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 /* Navigation menu */
