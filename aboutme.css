@@ -36,6 +36,16 @@
   font-size: 17px;
 }
 
+/* Stylint descending specificity  **/
+.menu-mobile-links a {
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+  font-size: 20px;
+}
+
 .bar-flex {
   display: flex;
   flex-direction: row;
@@ -98,6 +108,39 @@ h4 {
   font-family: 'Merriweather Sans', sans-serif;
 }
 
+.menu-mobile {
+  height: 100%;
+  width: 100%;
+  background: var(--dark);
+  position: fixed;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.close-nav-button {
+  align-self: flex-start;
+  margin: 10px 0 0 30px;
+}
+
+.menu-mobile a:hover {
+  color: var(--pink);
+  transform: scale(1);
+}
+
+.open-container {
+  padding: 30px;
+}
+
+.open-nav-button {
+  display: block;
+}
+
+.open-nav-button.active {
+  display: none;
+}
+
 /****  Styling for the home text box  ****/
 .section-home {
   height: auto;
@@ -140,12 +183,23 @@ h4 {
 /***********  FOOTER- Partners  *********/
 .img-logo {
   padding: 10px;
-  width: 250px;
+  width: 220px;
 }
 
 footer {
   background: #484444;
   color: white;
+}
+
+.partner-title {
+  font-family: 'Merriweather Sans', sans-serif;
+  color: white;
+  margin-top: 50px;
+}
+
+.partner-line {
+  width: 50px;
+  border: 1px solid #ec5242;
 }
 
 .partner {
@@ -215,7 +269,7 @@ footer {
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
-  background-image: linear-gradient(0deg, rgba(236, 82, 82, 0.7), rgb(236, 82, 82, 0.7)), url('images/summit-1.jpg');
+  background-image: linear-gradient(0deg, rgba(236, 82, 66, 0.7), rgb(236, 82, 66, 0.7)), url('images/summit-1.jpg');
 }
 
 .summit-two {
@@ -224,7 +278,7 @@ footer {
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
-  background-image: linear-gradient(0deg, #ec5252b3, rgb(236, 82, 82, 0.7)), url('images/summit-2.jpg');
+  background-image: linear-gradient(0deg, rgb(236, 82, 66, 0.7), rgb(236, 82, 66, 0.7)), url('images/summit-2.jpg');
 }
 
 @media (max-width: 748px) {
