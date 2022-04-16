@@ -2,7 +2,7 @@
 
 # Conference-Frontend
 
-> This project builds a a confrence website 
+> This project builds a a confrence website .
 
 ## Built With
 
