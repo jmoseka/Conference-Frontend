@@ -35,7 +35,7 @@ const speakers = {
     image: 'images/speakers/img-1.jpg',
     names: 'Sheila Kizuga',
     profession: '',
-    function: 'Sheila Kizuga helped bring the internet to Africaa and is an outspoken advocate for the open web and digital commons. In 2012, she was inducted into the inaugral class of the internet Society (ISOC) hall of fame',
+    function: 'Sheila Kizuga helped bring the internet to Africa and is an outspoken advocate for the open web and digital commons. In 2012, she was inducted into the inaugral class of the internet Society (ISOC) hall of fame',
   },
 
   column3: {
