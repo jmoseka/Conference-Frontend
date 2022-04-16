@@ -15,7 +15,9 @@
 
 [LIVE LINK](https://jmoseka.github.io/Conference-Frontend/)
 
+## Project video description 
 
+[loom](https://www.loom.com/share/cdfdebc0736b48b99a1b024353390036)
 ## Getting Started
 
 ### Prerequisites
