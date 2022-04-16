@@ -380,7 +380,7 @@ footer {
   width: 100%;
   background: var(--dark);
   margin: 24px 0;
-  height: 200px;
+  height: auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
