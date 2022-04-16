@@ -302,6 +302,10 @@
   border-radius: 50%;
 }
 
+.speaker-title{
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
 .btn-more {
   margin-top: 20px;
   width: 100%;

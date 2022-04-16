@@ -78,7 +78,7 @@ for (const speaker of [...Object.keys(speakers)]) {
                 <img class="speaker-img" src="${speakers[speaker].image}" alt="">
                 <div class="content-text">
                 <h4 class="speaker-title">${speakers[speaker].names} </h4>
-                <h6><small><i${speakers[speaker].profession}></i></small></h6>
+                <h6><small><i><strong>${speakers[speaker].profession}</strong></i></small></h6>
                 <div class="speaker-line"></div>
                 <p>${speakers[speaker].function}</p>
                 </div>
