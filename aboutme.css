@@ -281,6 +281,10 @@ footer {
   background-image: linear-gradient(0deg, rgb(236, 82, 66, 0.7), rgb(236, 82, 66, 0.7)), url('images/summit-2.jpg');
 }
 
+.hide-class {
+  display: none;
+}
+
 @media (max-width: 748px) {
   header {
     display: none;
@@ -288,6 +292,10 @@ footer {
 }
 
 @media (min-width: 748px) {
+  .hide-class {
+    display: block;
+  }
+
   .open-nav-button {
     display: none;
   }

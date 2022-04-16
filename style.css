@@ -316,6 +316,10 @@
   font-family: 'Merriweather Sans', sans-serif;
 }
 
+.hide-class {
+  display: none;
+}
+
 .speaker-subtitle {
   color: var(--pink);
 }
@@ -339,6 +343,10 @@
   border: 1px solid rgba(211, 211, 211);
   display: none;
   color: white;
+}
+
+.btn-more.active {
+  display: none;
 }
 
 .btn-more:hover {
@@ -376,7 +384,7 @@ footer {
 
 .img-logo {
   padding: 10px;
-  width: 250px;
+  width: 220px;
 }
 
 .f-size {
@@ -437,6 +445,10 @@ footer {
 /***********  Media query for desktop version  ************/
 
 @media (min-width: 768px) {
+  .hide-class {
+    display: block;
+  }
+
   .open-nav-button {
     display: none;
   }

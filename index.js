@@ -1,6 +1,7 @@
 const navButton = document.querySelector('.open-nav-button'); /** Nav humberger button */
 const closeMenuButton = document.querySelector('.close-nav-button');
 const hidden = document.querySelector('.hidden');
+const btnMore = document.querySelector('.btn-more');
 /** Dynamic grid element */
 const speakerGrid = document.querySelector('.speaker-grid');
 
@@ -73,6 +74,7 @@ for (const speaker of [...Object.keys(speakers)]) {
   // speaker = column1
   const element = document.createElement('div');
   element.classList.add('column-speaker');
+  element.classList.add('hide-class');
   element.innerHTML = `
             <div class="content-speaker d-flex">
             <div class="img-box">
@@ -89,3 +91,24 @@ for (const speaker of [...Object.keys(speakers)]) {
       `;
   speakerGrid.appendChild(element);
 }
+const collection = document.getElementsByClassName('column-speaker');
+// eslint-disable-next-line no-console
+// eslint-disable-next-line no-plusplus
+// eslint-disable-next-line no-restricted-syntax
+// const i of Object.values(collection)
+let i = 0;
+while (i < 2) {
+  collection[i].classList.remove('hide-class');
+  // eslint-disable-next-line no-plusplus
+  i++;
+}
+
+btnMore.addEventListener('click', () => {
+  let i = 0;
+  while (i < collection.length) {
+    collection[i].classList.remove('hide-class');
+    // eslint-disable-next-line no-plusplus
+    i++;
+  }
+  btnMore.classList.toggle('active');
+});
