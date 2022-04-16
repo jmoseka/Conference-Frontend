@@ -34,7 +34,7 @@ const speakers = {
   column2: {
     image: 'images/speakers/img-1.jpg',
     names: 'Sheila Kizuga',
-    profession: '',
+    profession: '-',
     function: 'Sheila Kizuga helped bring the internet to Africaa and is an outspoken advocate for the open web and digital commons. In 2012, she was inducted into the inaugral class of the internet Society (ISOC) hall of fame',
   },
 
@@ -78,7 +78,7 @@ for (const speaker of [...Object.keys(speakers)]) {
                 <img class="speaker-img" src="${speakers[speaker].image}" alt="">
                 <div class="content-text">
                 <h4 class="speaker-title">${speakers[speaker].names} </h4>
-                <h6><small><i><strong>${speakers[speaker].profession}</strong></i></small></h6>
+                <h6 class="speaker-subtitle"><small><i><strong>${speakers[speaker].profession}</strong></i></small></h6>
                 <div class="speaker-line"></div>
                 <p>${speakers[speaker].function}</p>
                 </div>
