@@ -310,7 +310,6 @@
   color: white;
 }
 
-
 /***********  FOOTER- Partners  *********/
 footer {
   display: flex;
@@ -379,8 +378,6 @@ footer {
   display: flex;
   justify-content: center;
 }
-
-
 
 /* Media query */
 @media (max-width: 768px) {
