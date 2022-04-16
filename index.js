@@ -42,7 +42,7 @@ const speakers = {
     image: 'images/speakers/img-4.jpg',
     names: 'Lee Pak',
     profession: 'Director of Art Center and a board of member of Maua Academy',
-    function: 'As the main avenue for new media art production in Kenya, Maua promotes criss-discplinary collaboration and understanding among science technology and the arts'
+    function: 'As the main avenue for new media art production in Kenya, Maua promotes criss-discplinary collaboration and understanding among science technology and the arts',
   },
 
   column4: {
@@ -63,7 +63,7 @@ const speakers = {
     image: 'images/speakers/img-1.jpg',
     names: 'Sheryl Amanda',
     profession: 'Executive Director of Searcher Foundation',
-    function: 'Sheryl is the executive Director of Searcher Foundation, the non profit organization that operates WikiMoja. Wiki moja is a freely available in 290 langages and used by nearly half a billion around the goal'
+    function: 'Sheryl is the executive Director of Searcher Foundation, the non profit organization that operates WikiMoja. Wiki moja is a freely available in 290 langages and used by nearly half a billion around the goal',
   },
 
 };
