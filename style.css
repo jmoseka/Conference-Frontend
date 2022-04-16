@@ -285,6 +285,7 @@
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
+  font-family: lato, sans-serif;
 }
 
 .column-speaker {
