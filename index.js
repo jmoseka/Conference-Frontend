@@ -32,28 +32,28 @@ const speakers = {
   },
 
   column2: {
-    image: 'images/speakers/img-2.jpg',
+    image: 'images/speakers/img-1.jpg',
     names: 'Sheila Kizuga',
     profession: '',
     function: 'Sheila Kizuga helped bring the internet to Africaa and is an outspoken advocate for the open web and digital commons. In 2012, she was inducted into the inaugral class of the internet Society (ISOC) hall of fame',
   },
 
   column3: {
-    image: 'images/speakers/img-4.jpg',
+    image: 'images/speakers/img-2.jpg',
     names: 'Lee Pak',
     profession: 'Director of Art Center and a board of member of Maua Academy',
     function: 'As the main avenue for new media art production in Kenya, Maua promotes criss-discplinary collaboration and understanding among science technology and the arts',
   },
 
   column4: {
-    image: 'images/speakers/img-1.jpg',
+    image: 'images/speakers/img-4.jpg',
     names: 'Amara Akachi',
     profession: 'Presidents on Young Ineventors Stars',
     function: 'Youth intergration, political democracy and paticipation of youth through online as her major condem. Amaras report outlining potential changes to AU copyright law was approved by the Parliament July',
   },
 
   column5: {
-    image: 'images/speakers/img-2.jpg',
+    image: 'images/speakers/img-4.jpg',
     names: 'Queen Yori',
     profession: 'CEO of Mila Academ, ex COO of the Moja Foundation',
     function: 'Quuen has been leading open sources project at the Moja Fondation such as the open source movement',
@@ -75,11 +75,9 @@ for (const speaker of [...Object.keys(speakers)]) {
   element.classList.add('column-speaker');
   element.innerHTML = `
             <div class="content-speaker d-flex">
-
                 <img class="speaker-img" src="${speakers[speaker].image}" alt="">
-
                 <div class="content-text">
-                <h2 class="speaker-title">${speakers[speaker].names} </h2>
+                <h4 class="speaker-title">${speakers[speaker].names} </h4>
                 <h6><small><i${speakers[speaker].profession}></i></small></h6>
                 <div class="speaker-line"></div>
                 <p>${speakers[speaker].function}</p>
