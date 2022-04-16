@@ -239,6 +239,7 @@
   font-size: 18px;
   color: var(--pink);
   padding: 2px;
+  white-space: pre-wrap;
 }
 
 .card-text {
@@ -311,8 +312,8 @@
 }
 
 .speaker-img {
-  height: 150px;
-  width: 150px;
+  height: 120px;
+  width: 120px;
   margin-top: -30px;
   margin-left: 20px;
 }
