@@ -111,8 +111,8 @@
 }
 
 .menu-mobile a:hover {
-  border: 3px solid #ec5252;
   color: var(--pink);
+  transform: scale(1);
 }
 
 .open-container {
@@ -302,7 +302,7 @@
   border-radius: 50%;
 }
 
-.speaker-title{
+.speaker-title {
   font-family: 'Merriweather Sans', sans-serif;
 }
 
