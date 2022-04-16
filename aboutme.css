@@ -155,8 +155,6 @@ footer {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  
-
 }
 
 .partner h3 {
@@ -245,9 +243,10 @@ footer {
     height: 300px;
   }
 
-  .partner{
+  .partner {
     display: none;
   }
+
   .creative-commons {
     background: #302c2c;
     color: white;
