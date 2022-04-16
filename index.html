@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!--CSS styling-->
+    <link rel="stylesheet" href="style.css"/>
+
+    <script src="https://kit.fontawesome.com/1cd527edf2.js" crossorigin="anonymous"></script>
+
+    
+    <title>Confrence website</title>
+</head>
+<body>
+    <header>
+        <div class="bar-container" >
+       <div class="header-bar">
+         <div class="bar-flex">
+            <div class="bar-icons">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+            <div class="bar-links">
+                <a href="#">English</a>
+                <a href="#">My Page</a>
+                <a href="#">Logout</a>
+            </div>
+         </div>
+       </div> 
+        </div>
+
+        <div class="nav">
+              
+            <nav class="navbar p-3">
+                <a href="index.html"><img class="nav-logo" src="images/logo.svg" alt=""></a>
+                 <div class="nav-links">
+                    <a href="aboutme.html">About</a>
+                    <a href="#">Program</a>
+                    <a href="#">Join</a>
+                    <a href="#">Sponsor</a>
+                    <a href="#">News</a>
+                    <a class="nav-buy" href="#">Buy Ticket</a>
+                </div>
+            </nav>
+
+        </div>
+    </header>
+
+    <!--Navigation menu for the mobile-->
+    <div class="hidden">
+        <div class="menu-mobile">
+            <button type="button" class="close-nav-button "><i class="fa-solid fa-xmark"></i></button>
+        
+            <div class="menu-mobile-links">
+
+            <a href="aboutme.html">About</a>
+            <a href="index.html">Program</a>
+            <a href="index.html">Join</a>
+            <a href="index.html">Sponsor</a>
+            <a href="index.html">News</a>
+            <a href="index.html">CC Campaign</a>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!--Website font page-->
+    
+    <section class="section-home">
+      <div class="open-container">
+      <button  class="open-nav-button" type="button"><i class="fa-solid fa-bars"></i></button>
+      </div>
+             
+        <div class="home-container container" id="home">
+            
+          <div class="row">
+              
+                  <div class="col pt-4 col-lg-10 mt-5 pt-md-5">
+                      <h1 class="home-title">LEARNING WITHOUT BORDERS GLOBAL SUMMIT 2020</h1>
+                      <p class="home-p"><strong>A joyful celebration believing in the value of openess and sharing, 
+                          creating a positive change with people from all over the world</strong></p>
+              
+                  </div>
+                  <div class="text-bottom">
+                      <p class="text-time h2">2022.10.15(THU) ~ 16(FRI)</p>
+                      <p class="text-location">@Nakuru International Confrence Center</p>
+                  </div>
+              
+              
+          </div>
+         
+        </div>
+
+    </section>
+
+
+    <!--Grid cards about the program-->
+    <section class="section-main-program">
+
+        <div class="my-5">
+          <h3 class="program-title">Main Program</h3>
+          <div class="line"></div>
+        </div>
+  
+        <!--Responsive container-->
+        <div class="container">
+          <!--Grid container-->
+          <div class="grid-container">
+  
+            <div class="grid-item">
+              <div class="card h-100">
+                  <img src="images/presentation.png" class="card-img-top card-img m-4" alt="network icon">
+                  <h5 class="card-title ">Lecture</h5>
+                  <p class="card-text">Listen to the speakers from variious countries about the messages of sharing and opening.</p>
+             </div>
+            </div> <!--Close grid container-->
+  
+  
+            <div class="grid-item">
+              <div class="card h-100">
+                  <img src="images/message.png" class="card-img-top card-img m-4" alt="network icon">
+                  <h5 class="card-title">Forum</h5>
+                  <p class="card-text">Have the time to share your thoughts and opinons with other experts.</p>
+             </div>
+            </div> <!--Close grid container-->
+  
+  
+            <div class="grid-item">
+              <div class="card h-100">
+                  <img src="images/workshop.png" class="card-img-top card-img m-4" alt="network icon">
+                  <h5 class="card-title">Work shop</h5>
+                  <p class="card-text">Try creating your own work using open source license rather than just watching at it.</p>
+             </div>
+            </div> <!--Close grid container-->
+  
+  
+            <div class="grid-item">
+              <div class="card h-100">
+                  <img src="images/museum.png" class="card-img-top card-img m-4" alt="network icon">
+                  <h5 class="card-title">Exhibition </h5>
+                  <p class="card-text">Appreciate various creations applying CC licence of artists organized from Art Center Naks.</p>
+             </div>
+            </div> <!--Close grid container-->
+  
+  
+            <div class="grid-item">
+              <div class="card h-100">
+                  <img src="images/network.png" class="card-img-top card-img m-4" alt="network icon">
+                  <h5 class="card-title">CC Ignite</h5>
+                  <p class="card-text">Get opportunities to network with CC affliates around the wprld, also after the summit.</p>
+             </div>
+            </div> <!--Close grid container-->
+          </div> <!--Close grid container-->
+        </div> <!--close container-->
+  
+        <div class="my-5">
+          <u><a  class="program-link" href="#">SEE THE WHOLE PROGRAM</a></u>
+          <button type="button" class="btn-join">Join Global Summit 2020</button>
+        </div>
+  
+      </section>
+
+
+      <!--Section featured speakers-->
+
+      <section class="featured-speakers">
+
+        <div class="container speaker-container">
+
+          <div class="text-center p-5 feature-title d-flex flex-column align-items-center">
+            <h3>Featured Speakers</h3>
+            <div class="feature-line">
+    
+            </div>
+          </div>
+
+          <div class="speaker-grid">
+            <!--Dynamic columns of speaker-->
+        
+          </div>
+          <button class="btn-more" type="button">MORE <i class="fa-solid fa-chevron-down"></i></button>
+
+          </div><!--Close container-->
+      </section>
+
+
+    <!--Footer section-->
+    <footer>
+
+        <div class="d-flex flex-column align-items-center mt-5">
+          <h3 class="partner-title">Partners</h3>
+          <div class="partner-line"></div>
+        </div>
+
+        <div class="partner">
+
+          <img class="img-logo" src="images/logos/amazon-logo-black-transparent.png" alt="">
+          <img class="img-logo" src="images/logos/google-1-1-logo-black-and-white.png" alt="">
+          <img class="img-logo" src="images/logos/mozilla-1-logo-svg-vector.svg" alt="">
+          <img class="img-logo" src="images/logos/naver-2-logo-black-and-white.png" alt="">
+          
+        </div>
+
+        <div class="creative-commons py-5 px-5">
+          <div class="row"> 
+              <div class="col col-label">
+                <h3>creative <br>commons kenya</h3>
+                </div>
+                
+                <div class="col">
+                    <p class="creative-text">2015 Creative Commons Kenya <br> Some Rights Reserved</p>
+                </div>
+  
+        </div>
+
+      </div>
+     
+        
+      </footer>
+
+    <!--Bootstrap js-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!--ICON KIT-->
+    <script src="https://kit.fontawesome.com/1cd527edf2.js" crossorigin="anonymous"></script>
+
+    <!--Custome js-->
+    <script src="index.js"></script>
+    
+</body>
+</html>
