@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300&family=Bowlby+One+SC&family=Cormorant+Garamond:wght@300&family=JetBrains+Mono:wght@100&family=Lato:wght@400;700&family=Xanh+Mono&display=swap');
 
 :root {
-  --pink: #ec5252;
+  --pink: #ec5242;
   --light-gray: rgb(211, 211, 211);
   --dark: #272a31;
 }
@@ -52,7 +52,7 @@
 }
 
 .bar-icons a:hover {
-  color: #ec5252;
+  color: #ec5242;
   transform: scale(0.1);
 }
 
@@ -91,7 +91,7 @@
 }
 
 .nav-buy {
-  border: 3px solid #ec5252;
+  border: 3px solid #ec5242;
 }
 
 h4 {
@@ -144,7 +144,7 @@ h4 {
 }
 
 footer {
-  background: var(--dark);
+  background: #484444;
   color: white;
 }
 
@@ -155,6 +155,8 @@ footer {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  
+
 }
 
 .partner h3 {
@@ -224,7 +226,7 @@ footer {
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
-  background-image: linear-gradient(0deg, rgba(236, 82, 82, 0.7), rgb(236, 82, 82, 0.7)), url('images/summit-2.jpg');
+  background-image: linear-gradient(0deg, #ec5252b3, rgb(236, 82, 82, 0.7)), url('images/summit-2.jpg');
 }
 
 @media (max-width: 748px) {
@@ -243,7 +245,11 @@ footer {
     height: 300px;
   }
 
-  .creative-commons {
+  .partner{
     display: none;
+  }
+  .creative-commons {
+    background: #302c2c;
+    color: white;
   }
 }
