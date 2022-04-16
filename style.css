@@ -261,8 +261,7 @@
 }
 
 .btn-join:hover {
-  background: white;
-  color: var(--dark);
+  background: #ec3b27;
 }
 
 /******  SPEAKER SECTION  ********/
@@ -323,15 +322,16 @@
   margin-top: 20px;
   width: 100%;
   padding: 12px;
-  background: white;
+  background: var(--pink);
   border-radius: 5px;
   border: 1px solid rgba(211, 211, 211);
   display: none;
+  color: white;
 }
 
 .btn-more:hover {
-  background: var(--pink);
-  color: white;
+  background: #ec3b27;
+  
 }
 
 /***********  FOOTER- Partners  *********/
@@ -395,7 +395,7 @@ footer {
 /* Copyright container */
 .creative-commons {
   width: 100%;
-  background: var(--light-gray);
+  background: white;
 }
 
 .col-label {
@@ -470,6 +470,14 @@ footer {
   .f-size {
     font-size: 3rem;
   }
+
+  .featured-speakers{
+    background: var(--light-gray);
+  }
+
+  .creative-commons{
+    background: var(--light-gray);
+  }
 }
 
 /********  Media query grid  *****************/
@@ -477,6 +485,7 @@ footer {
   .speaker-grid {
     flex-direction: column;
     gap: 20px;
+    
   }
 
   .column-speaker {
