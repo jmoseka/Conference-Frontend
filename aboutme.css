@@ -204,7 +204,7 @@ footer {
 
 .partner {
   margin: 30px 0;
-  height: 220px;
+  height: 300px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -305,7 +305,7 @@ footer {
     height: 300px;
   }
 
-  .partner {
+  .partner-section {
     display: none;
   }
 
