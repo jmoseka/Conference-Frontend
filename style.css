@@ -268,7 +268,6 @@
 /******  SPEAKER SECTION  ********/
 .featured-speakers {
   width: 100%;
-  background: var(--light-gray);
   padding-bottom: 24px;
 }
 
@@ -305,8 +304,19 @@
 .speaker-title {
   font-family: 'Merriweather Sans', sans-serif;
 }
+
 .speaker-subtitle{
   color: var(--pink);
+}
+
+.speaker-line{
+  border: 1px solid rgb(211, 211, 211);
+  margin: 24px 0;
+  width: 25px;
+}
+
+.speaker-p{
+  margin-top: 16px;
 }
 
 .btn-more {
