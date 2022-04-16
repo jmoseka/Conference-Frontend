@@ -31,6 +31,12 @@
   font-size: 17px;
 }
 
+.nav-links a:hover{
+  color: var(--pink);
+  transform: scale(1);
+  font-weight: bold;
+}
+
 .header-bar a {
   text-decoration: none;
   color: white;
