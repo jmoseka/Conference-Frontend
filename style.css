@@ -330,9 +330,6 @@
   width: 25px;
 }
 
-.speaker-p {
-  margin-top: 16px;
-}
 
 .btn-more {
   margin: 20px;
@@ -501,6 +498,12 @@ footer {
 
   .checkbox {
     background-color: var(--light-gray);
+  }
+
+  .speaker-line {
+    border: 1px solid rgb(185, 185, 185);
+    margin: 24px 0;
+    width: 25px;
   }
 
   .creative-commons {
