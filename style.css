@@ -183,6 +183,7 @@
 
 /* PROGRAM SECTION */
 .section-main-program {
+  min-width: 360px;
   width: 100%;
   height: auto;
   display: flex;
