@@ -221,10 +221,12 @@
 .card {
   font-family: lato, sans-serif;
   background-color: rgba(211, 211, 211, 0.1);
+  display: flex;
   align-items: center;
   flex-direction: row;
   width: 100%;
   cursor: pointer;
+  
 }
 
 .card:hover {
@@ -238,8 +240,6 @@
 .card-title {
   font-size: 18px;
   color: var(--pink);
-  padding: 2px;
-  white-space: pre-wrap;
 }
 
 .card-text {
@@ -344,11 +344,11 @@
   margin: 20px;
   width: 90%;
   padding: 12px;
-  background: var(--pink);
+  background: white;
   border-radius: 5px;
   border: 1px solid rgba(211, 211, 211);
   display: none;
-  color: white;
+  color: black;
 }
 
 .btn-more.active {
@@ -356,7 +356,8 @@
 }
 
 .btn-more:hover {
-  background: #ec3b27;
+  color: white;
+  background: var(--pink);
 }
 
 /***********  FOOTER- Partners  *********/
@@ -528,3 +529,5 @@ footer {
     display: block;
   }
 }
+
+
