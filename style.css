@@ -136,9 +136,8 @@
 .section-home {
   height: auto;
   width: 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-image: linear-gradient(0deg, rgb(211, 211, 211, 0.818), rgb(211, 211, 211, 0.8)), url('images/bg-main-heading.jpg');
+  background: #dbe6f6;  /* fallback for old browsers */
+  background: linear-gradient(to right, #ec5242, #d3d3d3cc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .home-container {
@@ -151,11 +150,7 @@
   font-family: 'Merriweather Sans', sans-serif;
   font-weight: 800;
   font-size: 2.4rem;
-  background-image: url(images/orange.jpg);
-  background-size: 100%;
-  background-repeat: repeat;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: var(--dark);
 }
 
 .home-p {
@@ -165,7 +160,6 @@
   color: var(--dark);
   font-family: lato, sans-serif;
   font-weight: 400;
-  background: linear-gradient(0deg, rgb(211, 211, 211, 0.818), rgb(211, 211, 211, 0.8));
   line-height: 30px;
 }
 

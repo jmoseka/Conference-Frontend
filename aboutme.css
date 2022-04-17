@@ -145,9 +145,8 @@ h4 {
 .section-home {
   height: auto;
   width: 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-image: linear-gradient(0deg, rgba(211, 211, 211, 0.91), rgb(211, 211, 211, 0.958)), url('images/bg-main-heading.jpg');
+  background: #dbe6f6;  /* fallback for old browsers */
+  background: linear-gradient(to right, #ec5242, #d3d3d3cc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .home-container {
@@ -160,7 +159,7 @@ h4 {
 .home-title {
   font-family: 'Merriweather Sans', sans-serif;
   font-size: 2rem;
-  color: var(--pink);
+  color: var(--dark);
   font-weight: 600;
 }
 
@@ -170,7 +169,6 @@ h4 {
   color: var(--dark);
   font-family: lato, sans-serif;
   font-weight: 400;
-  background-color: white;
   line-height: 30px;
 }
 
