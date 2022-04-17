@@ -325,7 +325,8 @@
 }
 
 .speaker-line {
-  border: 1px solid hsl(240deg 7% 62%);
+  border: 1px solid #6c757d;
+  margin: 24px 0;
   margin: 24px 0;
   width: 25px;
 }
