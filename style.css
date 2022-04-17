@@ -456,7 +456,7 @@ footer {
   }
 
   .home-title {
-    font-size: 4rem;
+    font-size: 3.2rem;
   }
 
   .text-time {
@@ -501,7 +501,7 @@ footer {
   }
 
   .speaker-line {
-    border: 1px solid rgb(185, 185, 185);
+    border: 1px solid rgb(216, 213, 213);
     margin: 24px 0;
     width: 25px;
   }
