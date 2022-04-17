@@ -81,7 +81,7 @@ for (const speaker of [...Object.keys(speakers)]) {
                 <div class="checkbox"></div>
                 <img class="speaker-img" src="${speakers[speaker].image}" alt="">
                 </div>
-                <div class="content-text ">
+                <div class="content-text w-100">
                 <h5 class="speaker-title">${speakers[speaker].names} </h5>
                 <h6 class="speaker-subtitle"><small><i><strong>${speakers[speaker].profession}</strong></i></small></h6>
                 <div class="speaker-line"></div>
