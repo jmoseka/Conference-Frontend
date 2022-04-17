@@ -17,6 +17,12 @@
   display: none;
 }
 
+header{
+  position: fixed;
+  width: 100%;
+  background: white;
+  z-index: 1;
+}
 .header-bar {
   width: 90%;
   display: flex;
