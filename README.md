@@ -15,6 +15,10 @@
 
 [LIVE LINK](https://jmoseka.github.io/Conference-Frontend/)
 
+## Gif Demo
+
+<img src="images/demo-project.gif" alt="website gif">
+
 ## Project video description 
 
 [loom](https://www.loom.com/share/cdfdebc0736b48b99a1b024353390036)
@@ -63,7 +67,7 @@ Jamila Moseka
 Contributions, issues, and feature requests are welcome!
 
 ## Acknowledgments
-Original design idea by Cindy Shin in Behance.
+Original design idea by [Cindy Shin](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015).
 
 ## Show your support
 
