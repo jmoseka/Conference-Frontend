@@ -226,7 +226,6 @@
   flex-direction: row;
   width: 100%;
   cursor: pointer;
-  
 }
 
 .card:hover {
@@ -529,5 +528,3 @@ footer {
     display: block;
   }
 }
-
-
