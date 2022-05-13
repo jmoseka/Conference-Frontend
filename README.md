@@ -2,7 +2,7 @@
 
 # Conference-Frontend
 
-> This project builds a a confrence website .
+> A confrence website built based on an online school website. It is part of the Microverse end of a module final project, meant to apply all of the CSS and HTML learned so far.
 
 ## Built With
 
